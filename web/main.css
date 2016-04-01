@@ -1,0 +1,32 @@
+body {
+	font-family: Helvetica;
+	text-align: center;
+}
+
+.color-changer {
+	border: 1px dashed black;
+	height: 400px;
+	margin: 0 auto;
+	overflow: scroll;
+	padding: 20px 0;
+	width: 400px;
+}
+
+.color-changer a {
+	border: 1px solid black;
+	border-radius: 4px;
+	cursor: pointer;
+	display: inline-block;
+	margin-bottom: 20px;
+	width: 250px;
+}
+
+.color-changer.red    { background-color: red;    }
+.color-changer.orange { background-color: orange; }
+.color-changer.yellow { background-color: yellow; }
+.color-changer.green  { background-color: green;  }
+.color-changer.blue   { background-color: blue;   }
+.color-changer.purple { background-color: purple; }
+.color-changer.white  { background-color: white;  }
+.color-changer.grey   { background-color: grey;   }
+.color-changer.pink   { background-color: pink;   }

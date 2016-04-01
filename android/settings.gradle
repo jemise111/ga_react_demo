@@ -1,0 +1,3 @@
+rootProject.name = 'ga_demo'
+
+include ':app'
